@@ -8,6 +8,10 @@ package checkboxes;
  *
  * @author FATEC ZONA LESTE
  */
-public interface Checkbox {
-    void paint();
-}
+// Interface que representa uma caixa de seleção.  
+public interface Checkbox {  
+
+    // Método para desenhar a caixa de seleção.  
+    void paint();  
+}  
+
