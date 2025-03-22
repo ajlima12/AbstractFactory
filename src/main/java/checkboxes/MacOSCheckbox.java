@@ -8,10 +8,13 @@ package checkboxes;
  *
  * @author FATEC ZONA LESTE
  */
-public class MacOSCheckbox implements Checkbox {
+// Implementação da caixa de seleção específica para macOS.  
+public class MacOSCheckbox implements Checkbox {  
 
-    @Override
-    public void paint() {
-        System.out.println("You have created MacOSCheckbox.");
-    }
-}
+    // Sobrescreve o método paint() para exibir a caixa de seleção no estilo macOS.  
+    @Override  
+    public void paint() {  
+        System.out.println("You have created MacOSCheckbox."); // Exibe uma mensagem indicando a criação da caixa de seleção.  
+    }  
+}  
+
